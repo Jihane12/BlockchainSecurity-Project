@@ -71,8 +71,8 @@ VulnerableVaultFixed (AFTER fix)
 
 | ID | Severity | Finding | Fix |
 |----|----------|---------|-----|
-| H1 | High | `emergencyWithdraw` has no access control — anyone can drain all ETH | Added `onlyOwner` |
-| H2 | High | `setOwner` has no access control — anyone can take ownership | Added `onlyOwner` |
+| H1 | Critical | `emergencyWithdraw` has no access control — anyone can drain all ETH | Added `onlyOwner` |
+| H2 | Critical | `setOwner` has no access control — anyone can take ownership | Added `onlyOwner` |
 | H3 | High | `withdraw` sends ETH before updating balances → reentrancy | Checks-effects-interactions + `noReentrant` guard |
 | H4 | High | `onlyOwner` modifier used `tx.origin` instead of `msg.sender` | Switched to `msg.sender` |
 | M1 | Medium | `pickWinner` uses `blockhash`/`timestamp` as randomness — predictable/manipulable | Flagged; recommend Chainlink VRF for production |
