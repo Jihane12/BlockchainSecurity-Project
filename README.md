@@ -35,6 +35,8 @@ npm install
 
 ```
 
+<img width="1000" alt="Commandes exécutées" src="https://github.com/user-attachments/assets/TON-ID-ICI">
+
 ## Compile
 
 ```bash
