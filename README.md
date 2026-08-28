@@ -29,7 +29,8 @@ package.json
 ```bash
 git clone <this-repo-url>
 cd vault-audit-project
-npm install
+<img width="3028" height="1284" alt="image" src="https://github.com/user-attachments/assets/a2379244-83c1-4543-aa04-dce9c9f3d2d5" />
+
 ```
 
 ## Compile
