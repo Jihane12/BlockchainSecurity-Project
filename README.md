@@ -115,6 +115,7 @@ git branch -M main
 git remote add origin[ https://github.com/Jihane12/BlockchainSecurity-Project.git
 git push -u origin main
 ```
+<img width="2454" height="1752" alt="image" src="https://github.com/user-attachments/assets/114c7715-25be-4de0-9d08-f06f8f86a132" />
 
 `node_modules/`, `cache/`, and `artifacts/` are already excluded via
 `.gitignore` — anyone cloning the repo just needs to run `npm install`.
