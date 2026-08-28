@@ -1,0 +1,17 @@
+{
+  "name": "vault-audit-project",
+  "version": "1.0.0",
+  "description": "ESTIAM Blockchain Security - Final project: audit of VulnerableVault, with before/after tests",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:before": "hardhat test test/VulnerableVault.test.js",
+    "test:after": "hardhat test test/VulnerableVaultFixed.test.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.5",
+    "solc": "^0.8.20"
+  }
+}
