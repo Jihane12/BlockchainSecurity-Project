@@ -1,5 +1,12 @@
 # VulnerableVault — Security Audit (ESTIAM Final Project)
+```
+Course: 4BLOCKC / E4CCSN — Blockchain Security  ·  ÉSTIAM Paris
+Trainer: M. David de Paula Santos Silva
+Group Number: 09
+Members: Jihane FATHI, Arouna BA, Mohamed Amine ISSOUKTANE et Idriss QARQABI 
+Date: 27/08/2026
 
+```
 Blockchain Security (4BLOCKC / E4CCSN) — audit of a staking vault contract,
 with a Hardhat test suite that **proves each vulnerability before the fix**
 and **proves the fix holds after**.
@@ -32,27 +39,38 @@ cd vault-audit-project
 npm install
 
 ```
+<img width="1992" height="257" alt="image" src="https://github.com/user-attachments/assets/fec21cb0-c246-46e6-a0f8-61e088dfa165" />
+<img width="1328" height="71" alt="image" src="https://github.com/user-attachments/assets/e9805033-19f0-4fae-b4fc-27b481a068c6" />
+<img width="3034" height="1289" alt="image" src="https://github.com/user-attachments/assets/3345eac6-f7d7-4fb9-b84e-a877aa5a099a" />
 
-<img width="2338" height="1700" alt="image" src="https://github.com/user-attachments/assets/2bb98364-2e3b-432b-b88f-50c567545b60" />
 
 ## Compile
 
 ```bash
 npx hardhat compile
 ```
+<img width="1614" height="133" alt="image" src="https://github.com/user-attachments/assets/7ca49a49-879e-46d9-a054-3472319de862" />
+
 
 ## Run the tests
 
 ```bash
 # everything (before + after)
 npx hardhat testz
+```
+<img width="1868" height="563" alt="image" src="https://github.com/user-attachments/assets/d290448e-5445-4c62-8101-1b10c027b82f" />
 
+```bash
 # only the exploits against the vulnerable contract
 npm run test:before
+```
+<img width="1555" height="491" alt="image" src="https://github.com/user-attachments/assets/a77b5427-6581-4729-a276-866c6628dac2" />
 
+```bash
 # only the checks against the fixed contract
 npm run test:after
 ```
+<img width="1551" height="508" alt="image" src="https://github.com/user-attachments/assets/45ed01e6-ecaa-420f-b072-3ec32bf93b3b" />
 
 Expected result: **7 passing tests** — 3 proving the vulnerabilities exist in
 `VulnerableVault`, 4 proving they are closed in `VulnerableVaultFixed`.
@@ -94,7 +112,7 @@ git init
 git add .
 git commit -m "Initial commit: VulnerableVault audit + before/after tests"
 git branch -M main
-git remote add origin https://github.com/<your-username>/<your-repo>.git
+git remote add origin[ https://github.com/Jihane12/BlockchainSecurity-Project.git
 git push -u origin main
 ```
 
