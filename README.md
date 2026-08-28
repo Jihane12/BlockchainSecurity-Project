@@ -30,6 +30,8 @@ package.json
 git clone <this-repo-url>
 cd vault-audit-project
 npm install
+<img width="2338" height="1700" alt="image" src="https://github.com/user-attachments/assets/2bb98364-2e3b-432b-b88f-50c567545b60" />
+
 
 ```
 
