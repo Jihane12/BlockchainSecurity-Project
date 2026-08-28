@@ -1,10 +1,10 @@
 # VulnerableVault — Security Audit (ESTIAM Final Project)
 ```
-Course: 4BLOCKC / E4CCSN — Blockchain Security  ·  ÉSTIAM Paris
-Trainer: M. David de Paula Santos Silva
-Group Number: 09
-Members: Jihane FATHI, Arouna BA, Mohamed Amine ISSOUKTANE et Idriss QARQABI 
-Date: 27/08/2026
+**Course:** 4BLOCKC / E4CCSN — Blockchain Security  ·  ÉSTIAM Paris  
+**Trainer:** M. David de Paula Santos Silva  
+**Group Number:** 09  
+**Members:** Jihane FATHI, Arouna BA, Mohamed Amine ISSOUKTANE et Idriss QARQABI  
+**Date:** 27/08/2026
 
 ```
 Blockchain Security (4BLOCKC / E4CCSN) — audit of a staking vault contract,
